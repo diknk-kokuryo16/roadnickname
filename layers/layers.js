@@ -25,7 +25,7 @@ var wms_layers = [];
             })
         });
 var format__2 = new ol.format.GeoJSON();
-var features__2 = format__2.readFeatures(json__2, 
+var features__2 = format__2.readFeatures(json__20241104_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource__2 = new ol.source.Vector({
     attributions: ' ',
